@@ -109,7 +109,7 @@ export default function GlobalData() {
             
         <Paper elevation={3} >
         <div  className={classesTypoGraphy.root}> 
-            Global Data Design By Amjad Ismail
+            Global Data Design and Developed By Amjad Ismail
             <Typography variant="h4" gutterBottom style={{color: 'green'}}>
             
             <NumberFormat value={globalData && globalData.results && globalData.results[0].total_cases} displayType={'text'} thousandSeparator={true} prefix={''} />
