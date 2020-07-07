@@ -31,11 +31,6 @@ jobs:
         cmd: install
         
     
-      
-    # Install Surge
-    - name: Install Surge
-      run: npm install --g surge
-    
     # Deploy Surge
     - name: Deploy React App to Surge
       run: surge ./build http://covid-tracker-amjadismail.surge.sh --token ${{ secrets.SURGE_TOKEN }}
