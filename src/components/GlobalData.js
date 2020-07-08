@@ -51,7 +51,7 @@ export default function GlobalData() {
             
         <Paper elevation={3} >
         <div  className={classesTypoGraphy.root}> 
-            Global Data
+             Global Data Design and Developed By Amjad Ismail
             <Typography variant="h4" gutterBottom style={{color: 'green'}}>
             {Loading}
         </Typography>
